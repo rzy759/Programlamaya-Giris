@@ -10,9 +10,9 @@ namespace ConsoleApp39
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("lütfen isminizi giriniz: ");
-            string isim= Console.ReadLine();
-            Console.WriteLine("merhaba "+isim);
+            Console.WriteLine("lütfen öğrenci numaranızı giriniz: ");
+            int numara=int.Parse(Console.ReadLine());
+            Console.WriteLine("öğrenci no: "+numara);
 
             Console.ReadLine();
         }
