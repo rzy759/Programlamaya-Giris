@@ -22,7 +22,7 @@ namespace ConsoleApp43
                 ücret = saat * 3;
             else if (saat <= 100)
                 ücret = saat * 4;
-            else
+            else if(saat>100)
                 ücret = saat * 5;
 
             
